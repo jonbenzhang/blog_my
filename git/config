@@ -1,0 +1,11 @@
+[user]
+	email = jenbonzhang@gmail.com
+	name = mengzhang
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "github"]
+	url = https://github.com/jonbenzhang/blog_my.git
+	fetch = +refs/heads/*:refs/remotes/github/*
