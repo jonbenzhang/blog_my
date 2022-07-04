@@ -7,7 +7,7 @@ $ kubectl proxy --port=8009
 Starting to serve on 127.0.0.1:8009
 如果想通过其它主机访问就需要指定监听的地址：
 
-$ kubectl proxy --address=0.0.0.0  --port=8009
+$ kubectl proxy --address=0.0.0.0  --port=8009 
 Starting to serve on [::]:8009
 此时通过curl访问会出现未认证的提示：
 
@@ -17,6 +17,9 @@ $ curl -X GET -L http://k8s-master:8009/
 
 $ kubectl proxy --address='0.0.0.0'  --accept-hosts='^*$' --port=8009
 Starting to serve on [::]:8009
+
+$kubectl  proxy --address=0.0.0.0 --disable-filter=true
+--disable-filter=true 允许非localhost的访问
 ```
 
 #### 创建token(dashboard登录使用)
