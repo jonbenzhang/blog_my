@@ -14,3 +14,4 @@ create namespace learn2
 ```bash
 kubectl create namespace learn2
 ```
+### net namespace
