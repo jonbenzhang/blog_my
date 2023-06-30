@@ -1,4 +1,5 @@
 ### install zsh
+
 ```bash
 # install zsh
 sudo apt install zsh
@@ -7,9 +8,13 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 # change default shell(also can edit /etc/passwd) 
 chsh -s /bin/zsh
 ```
+
 ### install plugin
+
 #### zsh-autosuggestions
+
 add auto command completion(令提示)
+
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
@@ -18,4 +23,14 @@ plugins=(
     # other plugins...
     zsh-autosuggestions
 )
+```
+
+### 遇到问题
+
+#### 安装zsh后,ls 文件夹没有颜色
+
+在.myshrc中加入,下面的重命名
+
+```shell
+alias ls='ls --color=auto'
 ```
