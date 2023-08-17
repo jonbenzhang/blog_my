@@ -28,8 +28,24 @@ sdk list java
 sdk install java <version> # 使用tab键,会自动提示可使用的java版本
 ```
 
-### 切换java使用的版本
+#### 切换java使用的版本
 
 ```shell
 sdk use java <version> # 使用tab键,会自动提示可使用的java版本
 ```
+
+
+
+
+
+## 粘贴板历史工具
+
+### maccy
+
+**项目地址**: https://github.com/p0deje/Maccy
+
+可以记录粘贴的历史版本.
+
+注意修改快捷键
+
+![image-20230817171534518](install.assets/image-20230817171534518.png)
