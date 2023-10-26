@@ -49,3 +49,31 @@ sdk use java <version> # 使用tab键,会自动提示可使用的java版本
 注意修改快捷键
 
 ![image-20230817171534518](install.assets/image-20230817171534518.png)
+
+## 小工具集合包
+
+**utools**
+
+各种小工具的集合包,像json格式化，斗图 等
+
+地址: https://www.u.tools/
+
+
+
+
+
+![image-20230817190843443](install.assets/image-20230817190843443.png)
+
+
+
+## Magnet(窗口工具)
+
+mac中没有像win或这linux中那样的分屏工具,需要软件替代
+
+
+
+
+
+## CatchMouse(屏幕间切换鼠标焦点)
+
+https://web.archive.org/web/20150502123813/http://ftnew.com:80/catchmouse.html
